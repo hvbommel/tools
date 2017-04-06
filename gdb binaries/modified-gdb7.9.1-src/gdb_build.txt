@@ -1,0 +1,17 @@
+./configure --host=i686-pc-mingw32 --target=x86_64-lin
+ux-gnu --with-auto-load-dir=$debugdir:$datadir/auto-load
+ --with-expat --with-gdb-datadir=/c/gnu/out/share/gdb --
+with-jit-reader-dir=/c/gnu/out/lib/gdb --without-libunwi
+nd-ia64 --without-lzma --without-guile --with-separate-d
+ebug-dir=/c/gnu/out/lib/debug --without-zlib --without-b
+abeltrace --with-python=no
+
+./configure --host=i686-pc-mingw32 --target=arm-linux-gnueabihf --with-auto-load-dir=$debugdir:$datadir/auto-load --with-expat=no --with-gdb-datadir=/c/gnu/out/share/gdb --with-jit-reader-dir=/c/gnu/out/lib/gdb --without-libunwind-ia64 --without-lzma --without-guile --with-separate-debug-dir=/c/gnu/out/lib/debug --without-zlib --without-babeltrace --with-python=no
+
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\Linux\bin\gdb\7.9\x86_64-linux-gnu-gdb.exe
+
+include insystem path: C:\minGW\bin
+
+$ ./configure --host=i686-pc-mingw32 --target=armv7l-unknown-linux-gnueabihf --with-auto-load-dir=$debugdir:$datadir/auto-load --
+with-expat --with-gdb-datadir=/c/gnu/out/share/gdb --with-jit-reader-dir=/c/gnu/out/lib/gdb --without-libunwind-ia64 --without-lz
+ma --without-guile --with-separate-debug-dir=/c/gnu/out/lib/debug --without-zlib --without-babeltrace --with-python=no
